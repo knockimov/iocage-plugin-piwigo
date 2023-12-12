@@ -80,7 +80,7 @@ FLUSH PRIVILEGES;
 EOF
 fi
 
-# Download Piwigo version 11.x from GitHub
+# Download Piwigo version 13.x from GitHub
 cd /usr/local/www
 git clone -b 13.x https://github.com/Piwigo/Piwigo.git
 # Create Piwigo data directory with permission
